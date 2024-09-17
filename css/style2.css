@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #87CEEB;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.server-status {
+    font-size: 14px;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.download-btn {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.world-of-the-day {
+    margin: 20px auto;
+}
+
+.world-of-the-day img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.world-of-the-day p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .menu a {
+        display: block;
+        margin: 5px 0;
+    }
+}
